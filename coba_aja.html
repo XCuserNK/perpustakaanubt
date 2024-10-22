@@ -1,0 +1,45 @@
+<html>
+      <head>
+<title>Aplikasi Kepuasan Gaji Karyawan</title>
+<script type="text/javascript">
+flag=1
+function f1()
+{
+    alert("Terima Kasih Atas Kerja Samanya")
+}
+function f()
+{
+    if(flag==1)
+        {
+            Bn.style.top=400
+            Bn.style.left=300
+            flag=2
+        }
+    else if(flag==2)
+        {
+            Bn.style.top=400
+            Bn.style.left=50
+            flag=3
+        }
+    else if(flag==3)
+        {
+            Bn.style.top=370
+            Bn.style.left=166
+            flag=1
+        }
+}
+</script>
+      </head>
+           <body>
+<h1>Aplikasi Kepuasan Gaji Karyawan<h1>
+<img alt="Informasi Gambar" src="logo STIKes Baruu1.png" height="200" width="200"/>
+<h2>Apakah Anda Puas dengan Gaji Anda?</h2>
+<div id="By" style="position:absolute; left:64px; top:370px; width:210px;
+height:210px;">
+<input type="button" value=" YA " onClick="f1()" / style="background-color:red; font-size: 20px; height : 50px; width: 100px">
+</div>
+<div ID="Bn" style="position:absolute; left:166px; top:370px; width:210px; height:210px; ">
+<input type="button" value=" TIDAK " onMouseOver="f()" / style="background-color:Blue; font-size: 20px; height : 50px; width: 100px " >
+</div>
+          </body>
+</html>
